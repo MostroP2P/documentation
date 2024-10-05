@@ -10,4 +10,4 @@ Mostro minimiza el tiempo de custodia los fondos de los usuarios, limitándolo �
 
 El pago de la hold invoice también puede liquidarse si los usuarios entran en una [disputa](./disputes.md) y el administrador determina que los Sats deben ser transferidos al comprador. Por el contrario, si el administrador determina que la orden debe ser cancelada, el pago de la hold invoice se cancelará y los Sats se “desbloquearán” en la wallet del vendedor, sin haber salido nunca de ella. Esto también ocurrirá si se realiza una [cancelación](./cancelling-an-order.md) cooperativa, o si se excede el tiempo de validez de la hold invoice, que es limitado. 
 
-Las hold invoices generadas por el nodo de Lightning Network del Mostro actualmente activo en mainnet (`npub1ykvsmrmw2hk7jgxgy64zr8tfkx4nnjhq9eyfxdlg3caha3ph0skq6jr3z0`) tienen  un tiempo de validez aproximado de 23 horas.
+Las hold invoices generadas por el nodo de Lightning Network del Mostro actualmente activo en mainnet (`npub1ykvsmrmw2hk7jgxgy64zr8tfkx4nnjhq9eyfxdlg3caha3ph0skq6jr3z0`) tienen  un tiempo de validez aproximado de 24 horas.
