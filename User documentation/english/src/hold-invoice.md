@@ -2,7 +2,7 @@
 
 Mostro uses hold invoices as an escrow mechanism to secure the funds of a transaction, protecting the buyer from potential fraud or non-payment. At the same time, it ensures the seller's security by not directly holding their funds.
 
-To sell sats through Mostro, you must pay the hold invoice that will be provided to you. Hold invoices are a type of Lightning Network invoice that allows the "locking" of the sats you intend to sell in your wallet, without settling the payment until the transaction with your counterparty is completed. Depending on the wallet you use, you might see your payment as "queued," "frozen," or "on flight."
+To sell sats through Mostro, you must pay the hold invoice that will be provided to you. Hold invoices are a type of Lightning Network invoice that allows the "locking" of the sats you intend to sell in your wallet, without settling the payment until the transaction with your counterparty is completed. Depending on the wallet you use, you might see your payment as "queued", "frozen", "on flight", or "pending".
 
 Once the seller of sats notifies Mostro that they have received the fiat, the hold invoice payment is automatically settled: the sats will be "unlocked" and collected by the Lightning Network node of the Mostro used for the exchange. Then, the corresponding [fee](./fees-and-limits.md) will be deducted, and an attempt will be made to pay the invoice provided by the buyer immediately. If the payment fails, Mostro will request a new invoice to the buyer and repeat the process until the payment is completed successfully.
 

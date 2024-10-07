@@ -2,7 +2,7 @@
 
 Mostro está diseñado para que los intercambios de bitcoin por monedas fiat sean rápidos, por lo que se recomienda utilizar métodos de pago fiat instantáneos.
 
-Cada operador de una instancia de Mostro puede establecer sus plazos de tiempo para cada proceso del intercamio, lo que fomenta la competencia entre Mostros y permite a los usuarios seleccionar el que mejor se ajuste a sus necesidades.
+Cada operador de una instancia de Mostro puede establecer sus plazos de tiempo para cada etapa del intercambio, lo que fomenta la competencia entre Mostros y permite a los usuarios seleccionar el que mejor se ajuste a sus necesidades.
 
 A continuación, se detallan los diferentes plazos de la instancia de Mostro actualmente activa en mainnet (`npub1ykvsmrmw2hk7jgxgy64zr8tfkx4nnjhq9eyfxdlg3caha3ph0skq6jr3z0`). A medida que existan más instancias de Mostro, esta información deberá ser accesible a los usuarios para que puedan elegir la que prefieran.
 

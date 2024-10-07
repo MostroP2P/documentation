@@ -2,7 +2,7 @@
 
 Mostro is designed for bitcoin-to-fiat exchanges to be fast, so it is recommended to use instant fiat payment methods.
 
-Each Mostro instance operator can set their own time frames for each exchange process, fostering competition among Mostro instances and allowing users to select the one that best fits their needs.
+Each Mostro instance operator can set their own time frames for each step of the exchange, fostering competition among Mostro instances and allowing users to select the one that best fits their needs.
 
 Below are the specific time frames for the Mostro instance currently active on mainnet (`npub1ykvsmrmw2hk7jgxgy64zr8tfkx4nnjhq9eyfxdlg3caha3ph0skq6jr3z0`). As more Mostro instances become available, this information should be accessible to users so they can choose their preferred one.
 

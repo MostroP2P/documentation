@@ -2,7 +2,7 @@
 
 Mostro utiliza hold invoices como mecanismo de escrow para asegurar los fondos de una operación, protegiendo al comprador contra posibles fraudes o impagos. A su vez, garantiza la seguridad del vendedor al no custodiar sus fondos directamente.
 
-Para vender Sats a través de Mostro deberás pagar una hold invoice que este te proporcionará. Las hold invoices, o facturas retenidas, son un tipo de factura de Lightning Network que permiten el "bloqueo" en tu billetera de los Sats que vas a vender, pero que no se liquide el pago hasta que finalice la operación con tu contraparte. Dependiendo de la wallet que utilices, podrías ver tu pago como “en espera”, “congelado” o “en tránsito”.
+Para vender Sats a través de Mostro deberás pagar una hold invoice que este te proporcionará. Las hold invoices, o facturas retenidas, son un tipo de factura de Lightning Network que permiten el "bloqueo" en tu billetera de los Sats que vas a vender, pero que no se liquide el pago hasta que finalice la operación con tu contraparte. Dependiendo de la wallet que utilices, podrías ver tu pago como “en espera”, “congelado”, “en tránsito” o “pendiente”.
 
 Una vez que el vendedor de Sats le indique a Mostro que ha recibido el fiat, se liquida automáticamente el pago de la hold invoice: los Sats se "desbloquean" y son cobrados por el nodo de Lightning Network del Mostro utilizado para el intercambio. Luego, se descontará el [fee](./fees-and-limits.md) correspondiente y se intentará pagar de inmediato la factura proporcionada por el comprador. Si el pago falla, Mostro solicitará una nueva factura al comprador y repetirá el proceso hasta que el pago se complete exitosamente.
 
