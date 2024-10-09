@@ -1,2 +1,2 @@
 protocol/book/
-users-guide/book/
+users-guide/*/book/

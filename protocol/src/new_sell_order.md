@@ -57,7 +57,7 @@ Mostro will send back a nip59 event as a confirmation message to the user like t
   "order": {
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
-    "pubkey": "00000ba40c5795451705bb9c165b3af93c846894d3062a9cd7fcba090eb3bf78",
+    "action": "new-order",
     "content": {
       "order": {
         "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
