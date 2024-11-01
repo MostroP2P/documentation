@@ -1,6 +1,6 @@
 # Users-guide en Español
 
-[https://mostro.network/docs-spanish](https://mostro.network/docs-spanish/)
+[Documentación para usuarios](https://mostro.network/docs-spanish/)
 
 ## Para contribuidores
 
@@ -13,19 +13,25 @@ cargo install just
 
 ### Procedimiento
 
-**Iniciar**
+#### Inicializar el Proyecto
+
+Inicializa el proyecto de documentación mdBook con las dependencias requeridas.
 
 ```bash
 just init
 ```
 
-**Para ejecutar el sitio localmente**
+#### Servir Localmente
+
+Inicia un servidor de desarrollo local con recarga automática para previsualización.
 
 ```bash
 just serve
 ```
 
-**Para construir el sitio**
+#### Construir la Documentación
+
+Genera el sitio de documentación estático para el despliegue en producción.
 
 ```bash
 just build

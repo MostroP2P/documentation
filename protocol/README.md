@@ -1,6 +1,6 @@
 # Protocol
 
-[https://mostro.network/protocol](https://mostro.network/protocol/)
+[Protocol Documentation](https://mostro.network/protocol/)
 
 ## For contributors
 
@@ -13,19 +13,25 @@ cargo install just
 
 ### Procedures
 
-**Init**
+#### Initialize the Project
+
+Initializes the mdBook documentation project with required dependencies.
 
 ```bash
 just init
 ```
 
-**To serve the site locally**
+#### Serve Locally
+
+Starts a local development server with live reload for preview.
 
 ```bash
 just serve
 ```
 
-**To build the site**
+#### Build Documentation
+
+Generates the static documentation site for production deployment.
 
 ```bash
 just build
