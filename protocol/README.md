@@ -1,5 +1,7 @@
 # Protocol
 
+[https://mostro.network/protocol](https://mostro.network/protocol/)
+
 ## For contributors
 
 ### Requirements
@@ -9,14 +11,22 @@
 cargo install just
 ```
 
-Init
+### Procedures
+
+**Init**
 
 ```bash
 just init
 ```
 
-You can serve the site locally with:
+**To serve the site locally**
 
 ```bash
 just serve
+```
+
+**To build the site**
+
+```bash
+just build
 ```

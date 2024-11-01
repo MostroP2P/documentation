@@ -1,5 +1,7 @@
 # Users-guide
 
+[https://mostro.network/docs-english](https://mostro.network/docs-english/)
+
 ## For contributors
 
 ### Requirements
@@ -8,15 +10,22 @@
 ```bash
 cargo install just
 ```
+### Procedures
 
-Init
+**Init**
 
 ```bash
 just init
 ```
 
-You can serve the site locally with:
+**To serve the site locally**
 
 ```bash
 just serve
+```
+
+**To build the site**
+
+```bash
+just build
 ```

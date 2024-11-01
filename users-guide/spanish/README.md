@@ -1,5 +1,7 @@
 # Users-guide en Español
 
+[https://mostro.network/docs-spanish](https://mostro.network/docs-spanish/)
+
 ## Para contribuidores
 
 ### Requerimientos
@@ -9,14 +11,22 @@
 cargo install just
 ```
 
-Iniciar
+### Procedimiento
+
+**Iniciar**
 
 ```bash
 just init
 ```
 
-Puedes ejecutar el sitio localmente con:
+**Para ejecutar el sitio localmente**
 
 ```bash
 just serve
+```
+
+**Para construir el sitio**
+
+```bash
+just build
 ```
