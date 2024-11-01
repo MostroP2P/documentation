@@ -21,6 +21,6 @@ Mostro publishes new disputes with event kind `38383` and status `initiated`:
     "sig": "00a1da45c00684c5af18cf292ca11697c9e70f2a691e6cd397211e717d2f54362dd401d7567da8184a5c596f48a09693479e67214c23e773523a63d0b1c3f537"
   }
 ]
+```
 
 Clients can query this events by nostr event kind `38383`, nostr event author, dispute status (`s`), type (`z`)
-```
