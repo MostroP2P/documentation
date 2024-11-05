@@ -4,7 +4,7 @@ Mostro is a peer-to-peer (P2P) bitcoin exchange platform on the Lightning Networ
 
 It uses [hold invoices](./hold-invoice.md) as an escrow system to provide security for the exchange of sats, minimizing custody and reducing the trust needed in both the counterparty and Mostro.
 
-By operating on [Nostr](https://nostr.com/), a communication protocol designed to be censorship-resistant due to the decentralization of its infrastructure, Mostro ensures that it is very difficult to block bitcoin exchanges, censor the posting of buy and sell offers, or hinder communication between users involved in an exchange. Additionally, as more [Mostro nodes](https://github.com/MostroP2P/mostro) become active, combined with Nostr's inherent decentralization, it will become increasingly difficult to stop P2P bitcoin exchanges without KYC.
+By operating on [Nostr](https://nostr.com/), a communication protocol designed to be censorship-resistant due to the decentralization of its infrastructure, Mostro ensures that it is very difficult to block bitcoin exchanges, censor the posting of buy and sell offers, or hinder communication between users involved in an exchange. Additionally, as more [Mostro instances](https://github.com/MostroP2P/mostro) become active, combined with Nostr's inherent decentralization, it will become increasingly difficult to stop P2P bitcoin exchanges without KYC.
 
 ## Origin of Mostro
 
