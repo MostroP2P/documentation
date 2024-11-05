@@ -85,7 +85,7 @@ Mostro also send a message to the buyer, this way they can both write to each ot
 }
 ```
 
-Mostro updates the parameterized replaceable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `active`:
+Mostro updates the addressable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `active`:
 
 ```json
 [
@@ -154,7 +154,7 @@ And this message to the buyer:
 }
 ```
 
-And updates the parameterized replaceable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `waiting-buyer-invoice`:
+And updates the addressable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `waiting-buyer-invoice`:
 
 ```json
 [

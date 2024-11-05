@@ -45,9 +45,9 @@ And here is the message to the buyer:
 }
 ```
 
-Mostro will not update the parameterized replaceable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `dispute`, this is because the order is still active, the dispute is just a way to let the admins and the other party know that there is a problem with the order.
+Mostro will not update the addressable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `dispute`, this is because the order is still active, the dispute is just a way to let the admins and the other party know that there is a problem with the order.
 
-## Mostro send a parameterized replaceable event to show the dispute
+## Mostro send a addressable event to show the dispute
 
 Here is an example of the event sent by Mostro:
 
@@ -113,7 +113,7 @@ Mostro will send a confirmation message to the admin with the order details:
 }
 ```
 
-Also Mostro will broadcast a new parameterized replaceable dispute event to update the dispute `status` to `in-progress`:
+Also Mostro will broadcast a new addressable dispute event to update the dispute `status` to `in-progress`:
 
 ```json
 [

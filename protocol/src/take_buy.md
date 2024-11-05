@@ -122,7 +122,7 @@ After seller pays the hold invoice Mostro send a message to the seller with the 
 }
 ```
 
-Mostro updates the parameterized replaceable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `waiting-buyer-invoice`:
+Mostro updates the addressable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `waiting-buyer-invoice`:
 
 ```json
 [
@@ -202,7 +202,7 @@ Buyer sends the LN invoice to Mostro.
 
 Now both parties have an `active` order and they can keep going with the trade.
 
-Finally Mostro updates the parameterized replaceable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `active`:
+Finally Mostro updates the addressable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `active`:
 
 ```json
 [
