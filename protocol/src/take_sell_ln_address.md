@@ -46,7 +46,7 @@ Mostro send a Gift wrap Nostr event to the buyer with a wrapped `order` in the r
 }
 ```
 
-Mostro updates the parameterized replaceable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `waiting-payment`:
+Mostro updates the addressable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `waiting-payment`:
 
 ```json
 [

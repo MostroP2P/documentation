@@ -56,7 +56,7 @@ Right after seller release sats Mostro will try to pay the buyer's lightning inv
 }
 ```
 
-Mostro updates the parameterized replaceable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `settled-hold-invoice`:
+Mostro updates the addressable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `settled-hold-invoice`:
 
 ```json
 [
@@ -85,7 +85,7 @@ Mostro updates the parameterized replaceable event with `d` tag `ede61c96-4c13-4
 ]
 ```
 
-Mostro will then attempt to pay the buyer's invoice, if the payment successds Mostro updates the parameterized replaceable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `success`:
+Mostro will then attempt to pay the buyer's invoice, if the payment successds Mostro updates the addressable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f1e9d842` to change the status to `success`:
 
 ```json
 [

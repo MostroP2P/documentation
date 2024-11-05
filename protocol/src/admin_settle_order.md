@@ -28,9 +28,9 @@ Mostro will send this message to the both parties buyer/seller and to the admin:
 }
 ```
 
-## Mostro updates parameterized replaceable events
+## Mostro updates addressable events
 
-Mostro will publish two parameterized replaceable messages, one for the order to update the status to `settled-by-admin`, this means that the hold invoice paid by the seller was settled:
+Mostro will publish two addressable events, one for the order to update the status to `settled-by-admin`, this means that the hold invoice paid by the seller was settled:
 
 ```json
 [
@@ -59,7 +59,7 @@ Mostro will publish two parameterized replaceable messages, one for the order to
 ]
 ```
 
-And updates parameterized replaceable dispute event with status `settled`:
+And updates addressable dispute event with status `settled`:
 
 ```json
 [
@@ -84,7 +84,7 @@ And updates parameterized replaceable dispute event with status `settled`:
 
 ## Payment of the buyer's invoice
 
-At this point Mostro is trying to pay the buyer's invoice, right after complete the payment Mostro will update the status of the order parameterized replaceable event to `success`:
+At this point Mostro is trying to pay the buyer's invoice, right after complete the payment Mostro will update the status of the order addressable event to `success`:
 
 ```json
 [

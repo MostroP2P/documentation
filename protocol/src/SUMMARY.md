@@ -24,4 +24,4 @@
 - [Admin Add Solver](./admin_add_solver.md)
 - [Actions](./actions.md)
   - [Message suggestions for actions](./message_suggestions_for_actions.md)
-- [Order event](./order-event.md)
+- [P2P Order event. NIP-69](./order-event.md)
