@@ -1,7 +1,7 @@
 # Cómo Contribuir
 
 ¡Gracias por tu interés en contribuir a Mostro!  
-Mostro no es una empresa, sino un proyecto Open Source, mpulsado y mantenido por su comunidad, por lo que cualquier tipo de contribución es valiosa y útil para los usuarios.
+Mostro no es una empresa, sino un proyecto Open Source, impulsado y mantenido por su comunidad, por lo que cualquier tipo de contribución es valiosa y útil para los usuarios.
 
 Si bien te sugerimos algunas áreas donde puedes colaborar, siéntete libre de proponer cualquier mejora que creas que pueda beneficiar al proyecto:
 - **Documentación:** Ayuda a mejorar la documentación para que más personas puedan entender qué es Mostro y cómo utilizarlo.

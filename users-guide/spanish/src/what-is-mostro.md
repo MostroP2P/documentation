@@ -4,7 +4,7 @@ Mostro es una plataforma de intercambio de bitcoin en Lightning Network de tipo 
 
 Utiliza [hold invoices](./hold-invoice.md) como sistema de escrow para brindar seguridad al intercambio de Sats, minimizando la custodia y reduciendo la confianza necesaria tanto en la contraparte como en Mostro.
 
-Al operar sobre [Nostr](https://nostr.com/), un protocolo de comunicación diseñado para ser resistente a la censura como consecuencia de la descentralización de su infraestuctura, se garantiza que sea muy difícil impedir los intercambios de bitcoin a través de Mostro, censurar la publicación de ofertas de compra y venta, o bloquear la comunicación entre los usuarios involucrados en un intercambio. Además, a medida que más [nodos de Mostro](https://github.com/MostroP2P/mostro) estén activos, unido a la descentralización inherente de Nostr, será cada vez más complicado detener los intercambios P2P de bitcoin sin KYC.
+Al operar sobre [Nostr](https://nostr.com/), un protocolo de comunicación diseñado para ser resistente a la censura como consecuencia de la descentralización de su infraestuctura, se garantiza que sea muy difícil impedir los intercambios de bitcoin a través de Mostro, censurar la publicación de ofertas de compra y venta, o bloquear la comunicación entre los usuarios involucrados en un intercambio. Además, a medida que más [instancias de Mostro](https://github.com/MostroP2P/mostro) estén activos, unido a la descentralización inherente de Nostr, será cada vez más complicado detener los intercambios P2P de bitcoin sin KYC.
 
 ## Origen de Mostro
 
