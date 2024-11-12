@@ -47,8 +47,8 @@ Events are [addressable events](https://github.com/nostr-protocol/nips/blob/mast
 ## Tags
 
 - `d` < Order ID >: A unique identifier for the order.
-- `k` < Order type >: `sell` or `buy`.
-- `f` < Currency >: The asset being traded, using the [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) standard.
+- `k` < Order type >: `sell` or `buy`. This specifies the type of transaction in terms of bitcoin. "sell" means selling bitcoin, while "buy" indicates buying bitcoin.
+- `f` < Currency >: The fiat asset being traded, using the [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) standard.
 - `s` < Status >: `pending`, `canceled`, `in-progress`, `success`.
 - `amt` < Amount >: The amount of Bitcoin to be traded, the amount is defined in satoshis, if `0` means that the amount of satoshis will be obtained from a public API after the taker accepts the order.
 - `fa` < Fiat amount >: The fiat amount being traded, for range orders two values are expected, the minimum and maximum amount.
