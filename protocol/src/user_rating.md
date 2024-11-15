@@ -64,7 +64,7 @@ Mostro updates the addressable rating event, in this event the `d` tag will be t
       ["last_rating", "1"],
       ["max_rate", "2"],
       ["min_rate", "5"],
-      ["data_label", "rating"]
+      ["z", "rating"]
     ],
     "content": "",
     "sig": "456fdc0589a5ffe1b55d5474cef2826bf01f458d63cf409490def9c5af31052e0461d38aed4f386f5dcea999e9fe6001d27d592dbba54a0420687dce0652322f"
