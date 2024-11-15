@@ -27,7 +27,11 @@ This event contains specific data about a Mostro instance. The instance is ident
       ["z", "info"]
     ],
     "content": "",
-    "sig": "1ed90ef2b63c43178d9ab62414168e48229d2162140f136b71c700da305a4020144b3ce4200320affa41962d3746509941068ee56efe3c738120fc73091a1530"
+    "sig": "db3591d04508db3e5f6ec45ca5c65d6309f7815842d0f166c612cd17f3885deeea1649e6865c301012664ed6631e58bd4e2090712b94aa79a2b571265e3dcb03",
+    "id": "52556bcd6100131d7918a75d0dd47d39c60ff74ce5045f182f4ace3a1b9e70f1",
+    "pubkey": "25990d8f6e55ede920c826aa219d69b1ab39cae02e489337e88e3b7ec4377c2c",
+    "created_at": 1731701441,
+    "kind": 38383
   }
 ]
 ```
