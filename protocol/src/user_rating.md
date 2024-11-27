@@ -46,19 +46,19 @@ If Mostro received the correct message, it will send back a confirmation message
 }
 ```
 
-Mostro updates the addressable rating event, in this event the `d` tag will be the user pubkey `00000ba40c5795451705bb9c165b3af93c846894d3062a9cd7fcba090eb3bf78` and looks like this:
+Mostro updates the addressable rating event, in this event the `d` tag will be the user pubkey `<Seller's trade pubkey>` and looks like this:
 
 ```json
 [
   "EVENT",
   "RAND",
   {
-    "id": "80909a120d17632f99995f92caff4801f25e9e523d7643bf8acb0166bd0932a6",
-    "pubkey": "dbe0b1be7aafd3cfba92d7463edbd4e33b2969f61bd554d37ac56f032e13355a",
+    "id": "<Event id>",
+    "pubkey": "<Mostro's pubkey>",
     "created_at": 1702637077,
     "kind": 38383,
     "tags": [
-      ["d", "00000ba40c5795451705bb9c165b3af93c846894d3062a9cd7fcba090eb3bf78"],
+      ["d", "<Seller's trade pubkey>"],
       ["total_reviews", "1"],
       ["total_rating", "2"],
       ["last_rating", "1"],
@@ -67,7 +67,7 @@ Mostro updates the addressable rating event, in this event the `d` tag will be t
       ["z", "rating"]
     ],
     "content": "",
-    "sig": "456fdc0589a5ffe1b55d5474cef2826bf01f458d63cf409490def9c5af31052e0461d38aed4f386f5dcea999e9fe6001d27d592dbba54a0420687dce0652322f"
+    "sig": "<Mostro's signature>"
   }
 ]
 ```

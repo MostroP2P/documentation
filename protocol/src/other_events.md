@@ -3,15 +3,26 @@
 Each Mostro instance periodically publishes events with relevant information about its status, such as the code version it is using, the latest commit, the fees it charges, allowed exchange limits, the relays it publishes to, and much more. Below, we provide details on these events.
 
 ## Mostro Instance Status
+
 This event contains specific data about a Mostro instance. The instance is identified by the label `mostro_pubkey`.
+
 ```json
 [
   "EVENT",
   "RAND",
   {
+    "id": "<Event id>",
+    "pubkey": "<Mostro's pubkey>",
+    "kind": 38383
     "tags": [
-      ["d", "info-25990d8f6e55ede920c826aa219d69b1ab39cae02e489337e88e3b7ec4377c2c"],
-      ["mostro_pubkey", "25990d8f6e55ede920c826aa219d69b1ab39cae02e489337e88e3b7ec4377c2c"],
+      [
+        "d",
+        "info-<Mostro's pubkey>"
+      ],
+      [
+        "mostro_pubkey",
+        "<Mostro's pubkey>"
+      ],
       ["mostro_version", "0.12.8"],
       ["mostro_commit_id", "69052b2adba6c006e6929afda27f041a427f58f8"],
       ["max_order_amount", "20000"],
@@ -27,14 +38,12 @@ This event contains specific data about a Mostro instance. The instance is ident
       ["z", "info"]
     ],
     "content": "",
-    "sig": "db3591d04508db3e5f6ec45ca5c65d6309f7815842d0f166c612cd17f3885deeea1649e6865c301012664ed6631e58bd4e2090712b94aa79a2b571265e3dcb03",
-    "id": "52556bcd6100131d7918a75d0dd47d39c60ff74ce5045f182f4ace3a1b9e70f1",
-    "pubkey": "25990d8f6e55ede920c826aa219d69b1ab39cae02e489337e88e3b7ec4377c2c",
+    "sig": "<Mostro's signature>",
     "created_at": 1731701441,
-    "kind": 38383
   }
 ]
 ```
+
 Below is an explanation of the meaning of some of the labels in this event, all of which can be modified by anyone running a Mostro instance.
 
 - `mostro_version`: The version of the Mostro daemon running on the instance.
@@ -59,14 +68,8 @@ The operator of a Mostro instance decides which relays the events from that inst
   "RAND",
   {
     "tags": [
-      [
-        "r",
-        "wss://relay.mostro.network/"
-      ],
-      [
-        "r",
-        "wss://nostr.bilthon.dev/"
-      ]
+      ["r", "wss://relay.mostro.network/"],
+      ["r", "wss://nostr.bilthon.dev/"]
     ],
     "content": "",
     "sig": "e48c14009871300e92ba66d6d37552c46c8259bf5efa2ef91874e9377cabf849987e9f785f7b8e4a740b691bb76111999d6ef4e703c8765214a7771f8e38e560",
@@ -77,4 +80,5 @@ The operator of a Mostro instance decides which relays the events from that inst
   }
 ]
 ```
+
 The `r` label indicates the relays through which the Mostro instance is publishing its events.

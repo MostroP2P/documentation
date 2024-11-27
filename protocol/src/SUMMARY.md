@@ -2,6 +2,7 @@
 
 [Home](./overview.md)
 
+- [Key management](./key_management.md)
 - [Creating a Sell order](./new_sell_order.md)
 - [Creating a Sell range order](./new_sell_range_order.md)
 - [Creating a Buy order](./new_buy_order.md)
