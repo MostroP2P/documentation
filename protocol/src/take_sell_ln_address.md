@@ -19,15 +19,13 @@ The event to send to Mostro would look like this:
 
 ```json
 {
-  "id": "cade205b849a872d74ba4d2a978135dbc05b4e5f483bb4403c42627dfd24f67d",
+  "id": "<Event id>",
   "kind": 1059,
-  "pubkey": "9a42ac72d6466a6dbe5b4b07a8717ee13e55abb6bdd810ea9c321c9a32ee837b",
-  "content": "sealed-rumor-content",
-  "tags": [
-    ["p", "dbe0b1be7aafd3cfba92d7463edbd4e33b2969f61bd554d37ac56f032e13355a"]
-  ],
+  "pubkey": "<Ephemeral pubkey>",
+  "content": "<sealed-rumor-content>",
+  "tags": [["p", "Mostro's pubkey"]],
   "created_at": 1234567890,
-  "sig": "a21eb195fe418613aa9a3a8a78039b090e50dc3f9fb06b0f3fe41c63221adc073a9317a1f28d9db843a43c28d860ba173b70132ca85b0e706f6487d43a57ee82"
+  "sig": "<Signature of ephemeral pubkey>"
 }
 ```
 
@@ -53,8 +51,8 @@ Mostro updates the addressable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f
   "EVENT",
   "RAND",
   {
-    "id": "eb0582360ebd3836c90711f774fbecb27e600f4a5fedf4fc2d16fc852f8380b1",
-    "pubkey": "dbe0b1be7aafd3cfba92d7463edbd4e33b2969f61bd554d37ac56f032e13355a",
+    "id": "<Event id>",
+    "pubkey": "<Mostro's pubkey>",
     "created_at": 1702549437,
     "kind": 38383,
     "tags": [
@@ -73,7 +71,7 @@ Mostro updates the addressable event with `d` tag `ede61c96-4c13-4519-bf3a-dcf7f
       ["z", "order"]
     ],
     "content": "",
-    "sig": "a835f8620db3ebdd9fa142ae99c599a61da86321c60f7c9fed0cc57169950f4121757ff64a5e998baccf6b68272aa51819c3e688d8ad586c0177b3cd1ab09c0f"
+    "sig": "<Mostro's signature>"
   }
 ]
 ```

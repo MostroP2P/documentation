@@ -38,7 +38,7 @@ Mostro will publish two addressable events, one for the order to update the stat
   "RAND",
   {
     "id": "3d74ce3f10096d163603aa82beb5778bd1686226fdfcfba5d4c3a2c3137929ea",
-    "pubkey": "dbe0b1be7aafd3cfba92d7463edbd4e33b2969f61bd554d37ac56f032e13355a",
+    "pubkey": "<Mostro's pubkey>",
     "created_at": 1703260182,
     "kind": 38383,
     "tags": [
@@ -67,7 +67,7 @@ And updates addressable dispute event with status `settled`:
   "RAND",
   {
     "id": "098e8622eae022a79bc793984fccbc5ea3f6641bdcdffaa031c00d3bd33ca5a0",
-    "pubkey": "dbe0b1be7aafd3cfba92d7463edbd4e33b2969f61bd554d37ac56f032e13355a",
+    "pubkey": "<Mostro's pubkey>",
     "created_at": 1703274022,
     "kind": 38383,
     "tags": [
@@ -92,7 +92,7 @@ At this point Mostro is trying to pay the buyer's invoice, right after complete 
   "RAND",
   {
     "id": "6170892aca6a73906142e58a9c29734d49b399a3811f6216ce553b4a77a8a11e",
-    "pubkey": "dbe0b1be7aafd3cfba92d7463edbd4e33b2969f61bd554d37ac56f032e13355a",
+    "pubkey": "<Mostro's pubkey>",
     "created_at": 1703274032,
     "kind": 38383,
     "tags": [

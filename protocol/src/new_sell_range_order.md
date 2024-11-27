@@ -65,8 +65,8 @@ Mostro publishes this order as an event kind `38383` with status `pending`:
   "EVENT",
   "RAND",
   {
-    "id": "84fad0d29cb3529d789faeff2033e88fe157a48e071c6a5d1619928289420e31",
-    "pubkey": "dbe0b1be7aafd3cfba92d7463edbd4e33b2969f61bd554d37ac56f032e13355a",
+    "id": "<Event id>",
+    "pubkey": "<Mostro's pubkey>",
     "created_at": 1702548701,
     "kind": 38383,
     "tags": [
@@ -85,7 +85,7 @@ Mostro publishes this order as an event kind `38383` with status `pending`:
       ["z", "order"]
     ],
     "content": "",
-    "sig": "7e8fe1eb644f33ff51d8805c02a0e1a6d034e6234eac50ef7a7e0dac68a0414f7910366204fa8217086f90eddaa37ded71e61f736d1838e37c0b73f6a16c4af2"
+    "sig": "<Mostro's signature>"
   }
 ]
 ```
