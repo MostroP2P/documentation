@@ -46,7 +46,7 @@ After the hold invoice is paid and the buyer already sent the invoice to receive
         "fiat_amount": 100,
         "payment_method": "face to face",
         "premium": 1,
-        "master_buyer_pubkey": "0000147e939bef2b81c27af4c1b702c90c3843f7212a34934bff1e049b7f1427",
+        "master_buyer_pubkey": "<Buyer's trade pubkey>",
         "master_seller_pubkey": "<Seller's trade pubkey>",
         "buyer_invoice": null,
         "created_at": 1698937797
@@ -63,7 +63,6 @@ Mostro also send a message to the buyer, this way they can both write to each ot
   "order": {
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
-    "pubkey": null,
     "action": "hold-invoice-payment-accepted",
     "content": {
       "order": {
@@ -75,7 +74,7 @@ Mostro also send a message to the buyer, this way they can both write to each ot
         "fiat_amount": 100,
         "payment_method": "face to face",
         "premium": 1,
-        "master_buyer_pubkey": "0000147e939bef2b81c27af4c1b702c90c3843f7212a34934bff1e049b7f1427",
+        "master_buyer_pubkey": "<Buyer's trade pubkey>",
         "master_seller_pubkey": "<Seller's trade pubkey>",
         "buyer_invoice": null,
         "created_at": 1698937797
@@ -193,7 +192,6 @@ Now buyer sends the invoice to Mostro:
   "order": {
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
-    "pubkey": null,
     "action": "add-invoice",
     "content": {
       "payment_request": [

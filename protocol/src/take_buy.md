@@ -36,7 +36,6 @@ Mostro respond to the seller with a message with the following content:
   "order": {
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
-    "pubkey": null,
     "action": "pay-invoice",
     "content": {
       "payment_request": [
@@ -97,7 +96,6 @@ And send a message to the buyer with the following content:
   "order": {
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
-    "pubkey": null,
     "action": "waiting-seller-to-pay",
     "content": null
   }
@@ -113,7 +111,6 @@ After seller pays the hold invoice Mostro send a message to the seller with the 
   "order": {
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
-    "pubkey": null,
     "action": "waiting-buyer-invoice",
     "content": null
   }
@@ -159,7 +156,6 @@ And sends a message to the buyer with the following content:
   "order": {
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
-    "pubkey": null,
     "action": "add-invoice",
     "content": {
       "order": {
@@ -186,7 +182,6 @@ Buyer sends the LN invoice to Mostro.
   "order": {
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
-    "pubkey": null,
     "action": "add-invoice",
     "content": {
       "payment_request": [

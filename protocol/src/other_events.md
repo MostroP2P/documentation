@@ -72,9 +72,9 @@ The operator of a Mostro instance decides which relays the events from that inst
       ["r", "wss://nostr.bilthon.dev/"]
     ],
     "content": "",
-    "sig": "e48c14009871300e92ba66d6d37552c46c8259bf5efa2ef91874e9377cabf849987e9f785f7b8e4a740b691bb76111999d6ef4e703c8765214a7771f8e38e560",
+    "sig": "<Mostro's signature>",
     "id": "7a31879cbb4f32b86ca535912ba568722c52845e1517468249b66f9af6eff05c",
-    "pubkey": "25990d8f6e55ede920c826aa219d69b1ab39cae02e489337e88e3b7ec4377c2c",
+    "pubkey": "<Mostro's pubkey>",
     "created_at": 1731680102,
     "kind": 10002
   }

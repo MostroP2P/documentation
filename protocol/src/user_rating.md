@@ -37,7 +37,6 @@ If Mostro received the correct message, it will send back a confirmation message
   "order": {
     "version": 1,
     "id": "7e44aa5d-855a-4b17-865e-8ca3834a91a3",
-    "pubkey": null,
     "action": "rate-received",
     "content": {
       "rating_user": 5
