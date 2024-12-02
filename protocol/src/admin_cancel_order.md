@@ -54,7 +54,7 @@ Mostro will publish two addressable events, one for the order to update the stat
       ["z", "order"]
     ],
     "content": "",
-    "sig": "76bfc5e9ce089757dd4074472e1df421da700ce133c874f40b1136607121eca8acfdd2b8b4b374adaa83fa0c7d99672eb21a1068b6b6b774742d5de5bfc932ba"
+    "sig": "<Mostro's signature>"
   }
 ]
 ```
@@ -77,7 +77,7 @@ And updates addressable dispute event with status `seller-refunded`:
       ["z", "dispute"]
     ],
     "content": "",
-    "sig": "6d7ca7bef7b696f1f6f8cfc33b3fe1beb2fdc6b7647efc93be669c6c1a9d4bafc770d9b0d25432c204dd487d48b39e589dfd7b03bf0e808483921b8937bd5367"
+    "sig": "<Mostro's signature>"
   }
 ]
 ```

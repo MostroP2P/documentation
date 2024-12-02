@@ -103,7 +103,7 @@ Mostro will send a confirmation message to the admin with the order details:
         "fiat_amount": 100,
         "payment_method": "face to face",
         "premium": 1,
-        "master_buyer_pubkey": "0000147e939bef2b81c27af4c1b702c90c3843f7212a34934bff1e049b7f1427",
+        "master_buyer_pubkey": "<Buyer's trade pubkey>",
         "master_seller_pubkey": "<Seller's trade pubkey>",
         "buyer_invoice": "lnbcrt11020n1pjcypj3pp58m3d9gcu4cc8l3jgkpfn7zhqv2jfw7p3t6z3tq2nmk9cjqam2c3sdqqcqzzsxqyz5vqsp5mew44wzjs0a58d9sfpkrdpyrytswna6gftlfrv8xghkc6fexu6sq9qyyssqnwfkqdxm66lxjv8z68ysaf0fmm50ztvv773jzuyf8a5tat3lnhks6468ngpv3lk5m7yr7vsg97jh6artva5qhd95vafqhxupyuawmrcqnthl9y",
         "created_at": 1698870173
