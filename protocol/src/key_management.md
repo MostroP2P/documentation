@@ -38,10 +38,9 @@ Clients will always use the first key (zero) `m/44'/1237'/38383'/0/0` to identif
           "order": {
             "version": 1,
             "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
+            "trade_index": 1,
             "action": "take-sell",
-            "content": {
-              "trade_key_index": 1
-            }
+            "content": null
           }
         },
         "<index 1 signature of the sha256 hash of the serialized first element of content>"
@@ -85,6 +84,7 @@ Then Alice wants to create a new buy order:
         {
           "order": {
             "version": 1,
+            "trade_index": 2,
             "action": "new-order",
             "content": {
               "order": {
@@ -95,8 +95,7 @@ Then Alice wants to create a new buy order:
                 "fiat_amount": 100,
                 "payment_method": "face to face",
                 "premium": 1,
-                "created_at": 1691518405,
-                "trade_key_index": 2
+                "created_at": 1691518405
               }
             }
           }
@@ -121,4 +120,45 @@ Now Alice waits for some seller to take her order, mostrod will show Alice's rep
 
 ### Full privacy mode
 
-Clients must offer a more private version where the client never ask for a challenge to mostrod, in that case mostrod can't link orders to users, the tradeoff is that users who choose this option cannot have a reputation.
+Clients must offer a more private version where the client never send the identity key to mostrod, in that case mostrod can't link orders to users, the tradeoff is that users who choose this option cannot have a reputation, let's see a `take-sell` example in an unencrypted gift wrap event:
+
+```json
+// external wrap layer
+{
+  "id": "<id>",
+  "kind": 1059,
+  "pubkey": "<Buyer's ephemeral pubkey>",
+  "content": {
+    // seal
+    "id": "<seal's id>",
+    "pubkey": "<index N pubkey (trade key)>",
+    "content": {
+      // rumor
+      "id": "<rumor's id>",
+      "pubkey": "<index N pubkey (trade key)>",
+      "kind": 1,
+      "content": [
+        {
+          "order": {
+            "version": 1,
+            "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
+            // "trade_index": 1, // not needed
+            "action": "take-sell",
+            "content": null
+          }
+        },
+        null
+      ],
+      "created_at": 1691518405,
+      "tags": []
+    },
+    "kind": 13,
+    "created_at": 1686840217,
+    "tags": [],
+    "sig": "<index N pubkey (trade key) signature>"
+  },
+  "tags": [["p", "<Mostro's pubkey>"]],
+  "created_at": 1234567890,
+  "sig": "<Buyer's ephemeral pubkey signature>"
+}
+```
