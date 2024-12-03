@@ -9,6 +9,8 @@ All messages from/to Mostro should be [Gift wrap Nostr events](https://github.co
 - [Wrapper](https://docs.rs/mostro-core/latest/mostro_core/message/enum.Message.html): Wrapper of the message
   - `version`: Version of the protocol, currently `1`
   - `id`: (optional) Wrapper Id
+  - `require_id`: (optional) Mostro daemon should send back this same id in the response
+  - `trade_index`: (optional) This field is used by users who wants to maintain reputation, it should be the index of the trade in the user's trade history
   - [action](https://docs.rs/mostro-core/latest/mostro_core/message/enum.Action.html): Action to be performed by Mostro daemon
   - [content](https://docs.rs/mostro-core/latest/mostro_core/message/enum.Content.html) (optional): Content of the message, this field is optional and depends on the action
 
@@ -19,6 +21,8 @@ These fields are relative to the wrapper, here an example of a `fiat-sent` Order
   "order": {
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
+    "require_id": "12345",
+    "trade_index": 1,
     "action": "fiat-sent",
     "content": null
   }
