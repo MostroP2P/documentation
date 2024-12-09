@@ -12,7 +12,7 @@ All messages from/to Mostro should be [Gift wrap Nostr events](https://github.co
   - `require_id`: (optional) Mostro daemon should send back this same id in the response
   - `trade_index`: (optional) This field is used by users who wants to maintain reputation, it should be the index of the trade in the user's trade history
   - [action](https://docs.rs/mostro-core/latest/mostro_core/message/enum.Action.html): Action to be performed by Mostro daemon
-  - [content](https://docs.rs/mostro-core/latest/mostro_core/message/enum.Content.html) (optional): Content of the message, this field is optional and depends on the action
+  - [payload](https://docs.rs/mostro-core/latest/mostro_core/message/enum.Content.html) (optional): Payload of the message, this field is optional and depends on the action
 
 These fields are relative to the wrapper, here an example of a `fiat-sent` Order message, in this case `id` is the Order Id:
 
@@ -24,7 +24,7 @@ These fields are relative to the wrapper, here an example of a `fiat-sent` Order
     "require_id": "12345",
     "trade_index": 1,
     "action": "fiat-sent",
-    "content": null
+    "payload": null
   }
 }
 ```

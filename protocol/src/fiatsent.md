@@ -8,7 +8,7 @@ After the buyer sends the fiat money to the seller, the buyer should send a mess
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "fiat-sent",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -37,7 +37,7 @@ Mostro send messages to both parties confirming `fiat-sent` action and sending a
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "fiat-sent-ok",
-    "content": {
+    "payload": {
       "Peer": {
         "pubkey": "<Seller's trade pubkey>"
       }
@@ -55,7 +55,7 @@ And here an example of the message from Mostro to the seller:
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "pubkey": "<Seller's trade pubkey>",
     "action": "fiat-sent-ok",
-    "content": {
+    "payload": {
       "Peer": {
         "pubkey": "<Buyer's trade pubkey>"
       }

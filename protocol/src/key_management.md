@@ -40,7 +40,7 @@ Clients will always use the first key (zero) `m/44'/1237'/38383'/0/0` to identif
             "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
             "trade_index": 1,
             "action": "take-sell",
-            "content": null
+            "payload": null
           }
         },
         "<index 1 signature of the sha256 hash of the serialized first element of content>"
@@ -86,7 +86,7 @@ Then Alice wants to create a new buy order:
             "version": 1,
             "trade_index": 2,
             "action": "new-order",
-            "content": {
+            "payload": {
               "order": {
                 "kind": "buy",
                 "status": "pending",
@@ -144,7 +144,7 @@ Clients must offer a more private version where the client never send the identi
             "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
             // "trade_index": 1, // not needed
             "action": "take-sell",
-            "content": null
+            "payload": null
           }
         },
         null

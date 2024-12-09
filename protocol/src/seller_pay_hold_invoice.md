@@ -8,7 +8,7 @@ When the seller is the maker and the order was taken by a buyer, Mostro will sen
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "pay-invoice",
-    "content": {
+    "payload": {
       "payment_request": [
         {
           "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
@@ -36,7 +36,7 @@ After the hold invoice is paid and the buyer already sent the invoice to receive
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "buyer-took-order",
-    "content": {
+    "payload": {
       "order": {
         "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
         "kind": "sell",
@@ -64,7 +64,7 @@ Mostro also send a message to the buyer, this way they can both write to each ot
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "hold-invoice-payment-accepted",
-    "content": {
+    "payload": {
       "order": {
         "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
         "kind": "sell",
@@ -123,7 +123,7 @@ Mostro send this message to the seller:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "waiting-buyer-invoice",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -136,7 +136,7 @@ And this message to the buyer:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "add-invoice",
-    "content": {
+    "payload": {
       "order": {
         "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
         "kind": "sell",
@@ -193,7 +193,7 @@ Now buyer sends the invoice to Mostro:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "add-invoice",
-    "content": {
+    "payload": {
       "payment_request": [
         null,
         "lnbcrt78510n1pj59wmepp50677g8tffdqa2p8882y0x6newny5vtz0hjuyngdwv226nanv4uzsdqqcqzzsxqyz5vqsp5skn973360gp4yhlpmefwvul5hs58lkkl3u3ujvt57elmp4zugp4q9qyyssqw4nzlr72w28k4waycf27qvgzc9sp79sqlw83j56txltz4va44j7jda23ydcujj9y5k6k0rn5ms84w8wmcmcyk5g3mhpqepf7envhdccp72nz6e"

@@ -7,7 +7,7 @@ To create a new sell order the user should send a Gift wrap Nostr event to Mostr
   "order": {
     "version": 1,
     "action": "new-order",
-    "content": {
+    "payload": {
       "order": {
         "kind": "sell",
         "status": "pending",
@@ -56,7 +56,7 @@ Mostro will send back a nip59 event as a confirmation message to the user like t
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "new-order",
-    "content": {
+    "payload": {
       "order": {
         "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
         "kind": "sell",

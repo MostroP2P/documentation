@@ -8,7 +8,7 @@ The buyer can use a [lightning address](https://github.com/andrerfneves/lightnin
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "take-sell",
-    "content": {
+    "payload": {
       "payment_request": [null, "mostro_p2p@ln.tips"]
     }
   }
@@ -39,7 +39,7 @@ Mostro send a Gift wrap Nostr event to the buyer with a wrapped `order` in the r
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "waiting-seller-to-pay",
-    "content": null
+    "payload": null
   }
 }
 ```

@@ -8,7 +8,7 @@ After confirming the buyer sent the fiat money, the seller should send a message
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "release",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -23,7 +23,7 @@ Here an example of the Mostro response to the seller:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "hold-invoice-payment-settled",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -36,7 +36,7 @@ And a message to the buyer to let him know that the sats were released:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "released",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -51,7 +51,7 @@ Right after seller release sats Mostro will try to pay the buyer's lightning inv
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "purchase-completed",
-    "content": null
+    "payload": null
   }
 }
 ```

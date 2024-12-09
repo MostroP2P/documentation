@@ -8,7 +8,7 @@ To take an order the seller will send to Mostro a message with the following rum
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "take-buy",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -37,7 +37,7 @@ Mostro respond to the seller with a message with the following content:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "pay-invoice",
-    "content": {
+    "payload": {
       "payment_request": [
         {
           "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
@@ -97,7 +97,7 @@ And send a message to the buyer with the following content:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "waiting-seller-to-pay",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -112,7 +112,7 @@ After seller pays the hold invoice Mostro send a message to the seller with the 
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "waiting-buyer-invoice",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -157,7 +157,7 @@ And sends a message to the buyer with the following content:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "add-invoice",
-    "content": {
+    "payload": {
       "order": {
         "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
         "status": "waiting-buyer-invoice",
@@ -183,7 +183,7 @@ Buyer sends the LN invoice to Mostro.
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "add-invoice",
-    "content": {
+    "payload": {
       "payment_request": [
         null,
         "lnbcrt78510n1pj59wmepp50677g8tffdqa2p8882y0x6newny5vtz0hjuyngdwv226nanv4uzsdqqcqzzsxqyz5vqsp5skn973360gp4yhlpmefwvul5hs58lkkl3u3ujvt57elmp4zugp4q9qyyssqw4nzlr72w28k4waycf27qvgzc9sp79sqlw83j56txltz4va44j7jda23ydcujj9y5k6k0rn5ms84w8wmcmcyk5g3mhpqepf7envhdccp72nz6e"

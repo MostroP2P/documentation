@@ -8,7 +8,7 @@ A use can start a dispute in an order with status `active` or `fiat-sent` sendin
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "dispute",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -23,7 +23,7 @@ Mostro will send this message to the seller:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "dispute-initiated-by-you",
-    "content": {
+    "payload": {
       "dispute": "efc75871-2568-40b9-a6ee-c382d4d6de01"
     }
   }
@@ -38,7 +38,7 @@ And here is the message to the buyer:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "dispute-initiated-by-peer",
-    "content": {
+    "payload": {
       "dispute": "efc75871-2568-40b9-a6ee-c382d4d6de01"
     }
   }
@@ -80,7 +80,7 @@ Mostro admin will see the dispute and can take it using the dispute `Id` from `d
     "version": 1,
     "id": "efc75871-2568-40b9-a6ee-c382d4d6de01",
     "action": "admin-take-dispute",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -93,7 +93,7 @@ Mostro will send a confirmation message to the admin with the order details:
     "version": 1,
     "id": "efc75871-2568-40b9-a6ee-c382d4d6de01",
     "action": "admin-took-dispute",
-    "content": {
+    "payload": {
       "order": {
         "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
         "kind": "sell",
