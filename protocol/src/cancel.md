@@ -8,7 +8,7 @@ A user can cancel an order created by himself and with status `pending` sending 
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "cancel",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -23,7 +23,7 @@ Mostro will send a message with action `cancel` confirming the order was cancele
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "canceled",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -70,7 +70,7 @@ A user can cancel an `active` order, but will need the counterparty to agree, le
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "cancel",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -83,7 +83,7 @@ Mostro will send this message to the seller:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "cooperative-cancel-initiated-by-you",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -96,7 +96,7 @@ And this message to the buyer:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "cooperative-cancel-initiated-by-peer",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -138,7 +138,7 @@ The buyer can accept the cooperative cancellation sending this message:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "cancel",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -151,7 +151,7 @@ And Mostro will send this message to both parties:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "cooperative-cancel-accepted",
-    "content": null
+    "payload": null
   }
 }
 ```

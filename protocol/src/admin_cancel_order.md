@@ -8,7 +8,7 @@ An admin can cancel an order, most of the time this is done when admin is solvin
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "admin-cancel",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -23,7 +23,7 @@ Mostro will send this message to the both parties buyer/seller and to the admin:
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "admin-canceled",
-    "content": null
+    "payload": null
   }
 }
 ```

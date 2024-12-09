@@ -8,7 +8,7 @@ After a successful trade Mostro send a Gift wrap Nostr event to both parties to 
     "version": 1,
     "id": "7e44aa5d-855a-4b17-865e-8ca3834a91a3",
     "action": "rate",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -21,7 +21,7 @@ After a Mostro client receive this message, the user can rate the other party, t
     "version": 1,
     "id": "7e44aa5d-855a-4b17-865e-8ca3834a91a3",
     "action": "rate-user",
-    "content": {
+    "payload": {
       "rating_user": 5 // User input
     }
   }
@@ -38,7 +38,7 @@ If Mostro received the correct message, it will send back a confirmation message
     "version": 1,
     "id": "7e44aa5d-855a-4b17-865e-8ca3834a91a3",
     "action": "rate-received",
-    "content": {
+    "payload": {
       "rating_user": 5
     }
   }

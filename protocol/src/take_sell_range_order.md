@@ -8,7 +8,7 @@ If the order fiat amount is a range like `10-20` the buyer must indicate a fiat 
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "take-sell",
-    "content": {
+    "payload": {
       "amount": 15
     }
   }
@@ -25,7 +25,7 @@ In order to continue the buyer needs to send a lightning network invoice to Most
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "add-invoice",
-    "content": {
+    "payload": {
       "order": {
         "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
         "amount": 7851,
@@ -88,7 +88,7 @@ The buyer can use a [lightning address](https://github.com/andrerfneves/lightnin
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "take-sell",
-    "content": {
+    "payload": {
       "payment_request": [null, "mostro_p2p@ln.tips", 15]
     }
   }

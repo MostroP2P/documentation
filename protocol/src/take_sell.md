@@ -8,7 +8,7 @@ If the order amount is `0` the buyer don't know the exact amount to create the i
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "take-sell",
-    "content": null
+    "payload": null
   }
 }
 ```
@@ -37,7 +37,7 @@ In order to continue the buyer needs to send a lightning network invoice to Most
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "add-invoice",
-    "content": {
+    "payload": {
       "order": {
         "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
         "amount": 7851,
@@ -95,7 +95,7 @@ The buyer sends a Gift wrap Nostr event to Mostro with the lightning invoice, th
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "add-invoice",
-    "content": {
+    "payload": {
       "payment_request": [
         null,
         "lnbcrt1pn9dvx0pp5935mskms2uf8wx90m8dlr60ytwn5vxy0e65ls42h7y7exweyvekqdqqcqzzsxqyz5vqsp5xjmllv4ta7jkuc5nfgqp8qjc3amzfewmlycpkkggr7q2y5mjfldq9qyyssqncpf3vm8hwujutqc99f0vy45zh8es54mn6u99q9t6rwm0q80dxszskzrp24y46lxqkc7ly9p80t6lalc8x8xhsn49yhy70a7wqyygugpv7chqs",
@@ -118,7 +118,7 @@ Mostro send a Gift wrap Nostr event to the buyer with a wrapped `order` in the r
     "version": 1,
     "id": "ede61c96-4c13-4519-bf3a-dcf7f1e9d842",
     "action": "waiting-seller-to-pay",
-    "content": null
+    "payload": null
   }
 }
 ```
