@@ -18,7 +18,7 @@ The event to send to Mostro would look like this:
 ```json
 {
   "id": "<Event id>",
-  "kind": 4,
+  "kind": 1059,
   "pubkey": "<Seller's ephemeral pubkey>",
   "content": "<sealed-rumor-content>",
   "tags": [["p", "Mostro's pubkey"]],
